@@ -1,275 +1,204 @@
-
+body {
+	background-image: url("../img/bg_gyro.jpg");
+	background-position: center top;
+	background-repeat: no-repeat;
+}
+body .solicitacao{
+	background-color: #fff !important;
+}
 .emprestimos{
 	width: 221px;
-height: 36px;
-color: #ffffff;
-font-family: Catamaran;
-font-size: 22px;
-font-weight: 400;
+	height: 36px;
+	color: #ffffff;
+	font-family: Catamaran;
+	font-size: 22px;
+	font-weight: 400;
 }
 .solicitar{
-    margin-top: 23px;
-    width: 254px;
-
-    height: 30px;
-    
-    color: #2d79d2;
-    
-    font-family: Catamaran;
-    
-    font-size: 28px;
-    
-    font-weight: 700;
-    
-    line-height: 30px;
-
+  margin-top: 23px;
+  width: 254px;
+  height: 30px;
+  color: #2d79d2;
+  font-family: Catamaran;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 30px;
 }
 .preencher{
-    width: 301px;
-    margin-top: 23px;
-height: 18px;
-
-color: #616161;
-
-font-family: Catamaran;
-
-font-size: 16px;
-
-font-weight: 400;
-
-line-height: 18px;
+  width: 301px;
+  margin-top: 23px;
+	height: 18px;
+	color: #616161;
+	font-family: Catamaran;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 18px;
 }
 .jumbotron{
-    
-    width: 460px;
-
-height: 584px;
-
-box-shadow: 0 0 10px rgba(176, 176, 176, 0.5);
-
-border-radius: 10px;
-
-background-color: #ffffff;
-
-
+  width: 460px;
+	height: 584px;
+	box-shadow: 0 0 10px rgba(176, 176, 176, 0.5);
+	border-radius: 10px;
+	background-color: #ffffff;
 }
 .jumbotronLogin{
-    
-    width: 460px;
-
-    height: 414px;
-    
-    box-shadow: 0 0 10px rgba(176, 176, 176, 0.5);
-    
-    border-radius: 10px;
-    
-    background-color: #ffffff;
-
-
+  width: 460px;
+  height: 414px;
+  box-shadow: 0 0 10px rgba(176, 176, 176, 0.5);
+  border-radius: 10px;
+  background-color: #ffffff;
 }
 .jumbotronPlataforma{
-width: 1300px;
-
-height: 550;
-
-background-color: #fafafa;
+	width: 1300px;
+	height: 550;
+	background-color: #fafafa;
 }
 .entrada{
-    width: 341px;
-    margin-top: 23px;
-    height: 36px;
-    
-    border-radius: 100px;
-    
-    border: 1px solid #c2c2c2;
+  width: 341px;
+  margin-top: 23px;
+  height: 36px;
+  border-radius: 100px;
+  border: 1px solid #c2c2c2;
 }
 .entradaMenor{
-    width: 159px;
-    margin-top: 23px;
-    height: 36px;
-    
-    border-radius: 100px;
-    
-    border: 1px solid #c2c2c2;
+  width: 159px;
+  margin-top: 23px;
+  height: 36px;
+  border-radius: 100px;
+  border: 1px solid #c2c2c2;
+	display: block;
+	float: left;
 }
 .continuar{
-    width: 341px;
-    margin-top: 23px;
-height: 51px;
-
-border-radius: 100px;
-
-background-color: #2d79d2;
+  width: 341px;
+  margin-top: 23px;
+	height: 51px;
+	border-radius: 100px;
+	background-color: #2d79d2;
 }
 .fonteNormal{
-    width: 301px;
-    margin-top: 23px;
-height: 36px;
-
-color: #616161;
-
-font-family: Catamaran;
-
-font-size: 16px;
-
-font-weight: 400;
-
-line-height: 18px;
+	width: 301px;
+	margin-top: 23px;
+	height: 36px;
+	color: #616161;
+	font-family: Catamaran;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 18px;
 }
 .logoFundo{
-
-    width: 460px;
-
-height: 584px;
+	width: 460px;
+	height: 584px;
 }
 .check{width: 20px;
-
-    height: 20px;
-    
-    border-radius: 5px;
-    
-    border: 1px solid #c2c2c2;}
-    .fontBotao{
-        width: 98px;
-       
-height: 27px;
-
-color: #ffffff;
-
-font-family: Catamaran;
-
-font-size: 16px;
-
-font-weight: 700;
-    }
-    .titulo{
-        width: 328px;
-        margin-top: 80px;
-height: 60px;
-
-color: #2d79d2;
-
-font-family: Catamaran;
-
-font-size: 28px;
-
-font-weight: 700;
-
-line-height: 30px;
-    }
-    .subtitulo{
-        width: 301px;
-        margin-top: 23px;
-        height: 46px;
-        
-        color: #575757;
-        
-        font-family: Catamaran;
-        
-        font-size: 18px;
-        
-        font-weight: 400;
-        
-        line-height: 23px;
-    }
- .botaoInvestir{width: 159px;
-    margin-top: 23px;
-    height: 51px;
-    
-    border-radius: 100px;
-    
-    border: 1px solid #2d79d2;}
- .botaoEmprestimo{
-     width: 159px;
-     margin-top: 23px;
-    height: 51px;
-    
-    border-radius: 100px;
-    
-    background-color: #2d79d2;}
-    .botaoInvestirTexto{
-        width: 60px;
-
-height: 27px;
-
-color: #2d79d2;
-
-font-family: Catamaran;
-
-font-size: 16px;
-
-font-weight: 700;
-    }
-    .tituloPlataforma{
-        width: 277px;
-        margin-top: 23px;
-height: 39px;
-
-color: #2d79d2;
-
-font-family: Catamaran;
-
-font-size: 24px;
-
-font-weight: 700;
-    }
-    .plataformaLabel{
-        width: 341px;
-
-height: 36px;
-
-border-radius: 100px;
-
-border: 1px solid #c2c2c2;
-    }
-    .plataformaTexto{
-        width: 301px;
-        margin-top: 23px;
-height: 23px;
-
-color: #4a4a4a;
-
-font-family: Catamaran;
-
-font-size: 16px;
-
-font-weight: 700;
-
-line-height: 23px;
-    }
-    .plataformaLegenda{
-        width: 443px;
-
-        height: 69px;
-        
-        color: #919191;
-        
-        font-family: Catamaran;
-        
-        font-size: 14px;
-        
-        font-weight: 400;
-        
-        line-height: 23px;
-    }
-    .botaoPlataforma{
-        width: 243px;
-        margin-top: 23px;
-        height: 51px;
-        
-        border-radius: 100px;
-        
-        background-color: #2d79d2;}
-        .textoBotaoPlataforma{
-            width: 158px;
-
-height: 27px;
-
-color: #ffffff;
-
-font-family: Catamaran;
-
-font-size: 16px;
-
-font-weight: 700;
-        }
+  height: 20px;
+	border-radius: 5px;
+	border: 1px solid #c2c2c2;}
+.fontBotao{
+	color: #ffffff;
+	font-family: Catamaran;
+	font-size: 16px;
+	margin: 0 auto;
+}
+.titulo{
+  width: 328px;
+	margin-top: 50px;
+	height: 60px;
+	color: #2d79d2;
+	font-family: Catamaran;
+	font-size: 28px;
+	font-weight: 700;
+	line-height: 30px;
+}
+.subtitulo{
+  width: 301px;
+  margin-top: 23px;
+  height: 46px;
+  color: #575757;
+  font-family: Catamaran;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 23px;
+}
+.botaoInvestir{
+  width: 159px;
+  margin-top: 23px;
+	text-align: center;
+  height: 51px;
+  border-radius: 100px;
+  border: 1px solid #2d79d2;
+}
+.botaoEmprestimo{
+  width: 100%;
+  height: 50px;
+	margin-top: 25px;
+  border-radius: 100px;
+  background-color: #2d79d2;
+}
+.botaoEmprestimo{
+		cursor: pointer;
+	}
+.botaoInvestirTexto{
+	color: #2d79d2;
+	font-family: Catamaran;
+	font-size: 16px;
+	text-align: center;
+	margin: 0 auto;
+	font-weight: 700;
+}
+.botaoInvestirTexto a{
+	text-decoration: none;
+	color: #2d79d2;
+}
+.tituloPlataforma{
+  width: 277px;
+  margin-top: 23px;
+	height: 39px;
+	color: #2d79d2;
+	font-family: Catamaran;
+	font-size: 24px;
+	font-weight: 700;
+}
+.plataformaLabel{
+	width: 341px;
+	height: 36px;
+	border-radius: 100px;
+	border: 1px solid #c2c2c2;
+}
+.plataformaTexto{
+	width: 200px;
+	margin-top: 23px;
+	height: 23px;
+	color: #4a4a4a;
+	font-family: Catamaran;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 23px;
+}
+.plataformaLegenda{
+  width: 443px;
+  height: 69px;
+  color: #919191;
+  font-family: Catamaran;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 23px;
+}
+.botaoPlataforma{
+  width: 243px;
+  margin-top: 23px;
+  height: 51px;
+  border-radius: 100px;
+  background-color: #2d79d2;
+}
+.textoBotaoPlataforma{
+	width: 158px;
+	height: 27px;
+	color: #ffffff;
+	font-family: Catamaran;
+	font-size: 16px;
+	font-weight: 700;
+}
+table input{
+	padding: 0 0 3px 25px
+}
