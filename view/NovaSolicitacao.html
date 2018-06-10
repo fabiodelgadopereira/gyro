@@ -16,14 +16,33 @@
                     <tr><td><input type="text" class="plataformaLabel" placeholder="Selecione"></td></tr>
                     <tr><td><p class="plataformaTexto">Faturamento somado nos últimos 12 meses</p></td></tr>
                     <tr><td><input type="text" class="plataformaLabel" placeholder="Selecione"></td></tr>
-                    <tr><td><button ng-click="adicionarEmprestimo(hist)"  type="button" class="botaoPlataforma" ><p class="textoBotaoPlataforma" >Criar solicitação</p></button></td></tr>
+                    <tr><td><button ng-click="adicionarEmprestimo(hist)"  type="button" class="botaoPlataforma"  data-toggle="modal" data-target="#myModal" ><p class="textoBotaoPlataforma" >Criar solicitação</p></button></td></tr>
                     </table>
 
       </td>
-        <td style="padding-left:50px"><p class="plataformaLegenda">*Recomendamos colocar de 5%-10% a mais como margem de segurança, pois dependemos da transferência dos investidores e eventualmente alguns não realizam no tempo estabelecido.</p></td></tr>
+        <td style="padding-left:50px;  vertical-align:top;"><p class="plataformaLegenda">*Recomendamos colocar de 5%-10% a mais como margem de segurança, pois dependemos da transferência dos investidores e eventualmente alguns não realizam no tempo estabelecido.</p></td></tr>
 
         </table>
 </form>
+<div class="modal fade" id="myModal" role="dialog">
+                <div class="modal-dialog">
+                
+               <!-- Modal content-->
+               <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal">&times;</button>
+                  <h4 class="modal-title"></h4>
+                </div>
+                <div class="modal-body">
+                  <p>Seu pedido foi enviado para analise!<BR> Logo mais entraremos em contato ;)</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">OK!</button>
+                </div>
+              </div>
+             
+            </div>
+          </div>
         </div>
 
         </body>

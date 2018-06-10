@@ -21,6 +21,7 @@ angular.module("plataforma").controller("plataformaCtrl", function ($scope,histo
 
         historicoAPI.savehistorico (entrada).then(function (response) {
             delete $scope.historico;
+            carregarHistorico();
            
         });
     };

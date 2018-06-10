@@ -152,7 +152,8 @@ body .solicitacao{
 }
 .tituloPlataforma{
   width: 277px;
-  margin-top: 23px;
+	margin-top: 23px;
+	margin-left: 23px;
 	height: 39px;
 	color: #2d79d2;
 	font-family: Catamaran;
@@ -166,8 +167,18 @@ body .solicitacao{
 	border: 1px solid #c2c2c2;
 }
 .plataformaTexto{
-	width: 200px;
-	margin-top: 23px;
+	width: 300px;
+	margin-top: 10px;
+	height: 23px;
+	color: #4a4a4a;
+	font-family: Catamaran;
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 23px;
+}
+.plataformaTextoSolicitacao{
+	width: 240px;
+	margin-top: 10px;
 	height: 23px;
 	color: #4a4a4a;
 	font-family: Catamaran;
@@ -177,7 +188,9 @@ body .solicitacao{
 }
 .plataformaLegenda{
   width: 443px;
-  height: 69px;
+	height: 69px;
+	margin-top: 50px;
+	vertical-align:top;
   color: #919191;
   font-family: Catamaran;
   font-size: 14px;

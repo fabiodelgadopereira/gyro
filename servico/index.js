@@ -5,7 +5,9 @@ var app = router(port)
 var configProd = "/servico";
 var url = require('url');
 
-
+var oferta = [
+    { nome: "Maria", investimento: "2000", porcentagem: "2,0", periodo: "1 mês" }
+];
 
 
 var conta = [
@@ -54,7 +56,15 @@ app.post(configProd + '/historico', function (req, res) {
     historico.push(JSON.parse(entrada));
     res.end();
 });
-
+app.get(configProd + '/oferta', function (req, res) {
+    res.write(JSON.stringify(oferta));
+    res.end();
+});
+app.post(configProd + '/oferta', function (req, res) {
+    var entrada = req.body;
+    oferta.push(JSON.parse(entrada));
+    res.end();
+});
 
 
 
